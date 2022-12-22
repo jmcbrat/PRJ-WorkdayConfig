@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="OneSolution-HR">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="wisc11\dv:HQ\jmcbra">
+          <Created>2022-05-29T10:51:50.6678328-04:00</Created>
+          <Type>SQL</Type>
+          <Server>wisc11\dv</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>production_finance</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="wisc30\pd:HQ\jmcbra">
+          <Created>2022-06-16T15:29:20.7357462-04:00</Created>
+          <Type>SQL</Type>
+          <Server>wisc30\pd</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Email Match for e nnumber.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc30\pd:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc30\pd</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Email Match for e nnumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP_Base_Compensation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP_Base_Compensation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP_Position_Mgt.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP_Position_Mgt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP_System_User_Accounts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP_System_User_Accounts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP-Allowance Plans.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP-Allowance Plans.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Name_and_Email.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_Name_and_Email.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Organization_Assignments.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_Organization_Assignments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Pay_Group_Assignments.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_Pay_Group_Assignments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_SECURITY_Assign_Role_Based_Security.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_SECURITY_Assign_Role_Based_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_SECURITY_Assign_User_Based_Security.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_SECURITY_Assign_User_Based_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Service_Dates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_Service_Dates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Supervisory_Organizations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_Supervisory_Organizations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Worker_Address.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_Worker_Address.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Worker_Phone_Numbers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HR_Worker_Phone_Numbers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sample dates.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sample dates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sccm users.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sccm users.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

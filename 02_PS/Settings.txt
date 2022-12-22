@@ -1,0 +1,113 @@
+[Locations]
+Root=O:\1 Workday\Configuration Phase\1a HCM Configuration Conversion Workbooks\80_Scripts\
+#Below values in Locationsnot used!
+HRSQLPath=O:\1 Workday\Configuration Phase\1a HCM Configuration Conversion Workbooks\80_Scripts\01_raw SQL\01_HR\
+HROutPath=O:\1 Workday\Configuration Phase\1a HCM Configuration Conversion Workbooks\80_Scripts\03_Output Staging\01_HR\
+FINSQLPath=O:\1 Workday\Configuration Phase\1a HCM Configuration Conversion Workbooks\80_Scripts\01_raw SQL\02_FIN\
+FINOutPath=O:\1 Workday\Configuration Phase\1a HCM Configuration Conversion Workbooks\80_Scripts\03_Output Staging\02_FIN\
+PAYSQLPath=O:\1 Workday\Configuration Phase\1a HCM Configuration Conversion Workbooks\80_Scripts\01_raw SQL\03_Pay\
+PAYOutPath=O:\1 Workday\Configuration Phase\1a HCM Configuration Conversion Workbooks\80_Scripts\03_Output Staging\03_Pay\
+BENSQLPath=O:\1 Workday\Configuration Phase\1a HCM Configuration Conversion Workbooks\80_Scripts\01_raw SQL\05_Pay\
+BENOutPath=O:\1 Workday\Configuration Phase\1a HCM Configuration Conversion Workbooks\80_Scripts\03_Output Staging\05_Pay\
+
+
+[OutPutFILE]
+delimiter=|
+encoding=UTF8
+server=WISC11\dv
+database=production_finance
+
+<Processes>
+# no output on the first file (clears the temp table)
+smoketest,01_raw SQL\04_Tables\,03_Output Staging\01_HR\
+#Process,SQL Path, Output Path (Root is added to PATHS)
+#HR Jobs
+HR_Supervisory_Organizations,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_Worker_Address,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_EMP_Base_Compensation,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_Worker_Phone_Numbers,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+# moved to pay.... HR_Pay_Group_Assignments,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_Organization_Assignments,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_Service_Dates,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_SECURITY_Assign_User_Based_Security,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_SECURITY_Assign_Role_Based_Security,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_EMP_Position_Mgt,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_EMP_System_User_Accounts,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_Name_and_Email,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_EMP-Allowance Plans,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_EMP-Calculated Plans,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+#HR_Benefits_Employee_Related_Person,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+EMP-Biographic Data,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+hr_EMP_Demographic Data,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+hr_EMP_Worker Government IDs,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+hr_emp_WorkerLicenses,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_EMP-JobMgt,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+# Duplicate of above.... HR_EMP_ServiceDates,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+hr_emp_UnionMembership,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_EMP_AddRetireeStatus,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_EMP_VET_ID,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_EMP_Terminations,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_Absence_Leave_of_Absence,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_EMP-One-TimePayments,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+HR_Override Balances,01_raw SQL\01_HR\,03_Output Staging\01_HR\
+#HR Benefits
+HR_Benefits_Employee_Related_Person,01_raw SQL\05_BEN\,03_Output Staging\05_BEN\
+HCM_BENEFITS_Health_Care_Elections,01_raw SQL\05_BEN\,03_Output Staging\05_BEN\
+HCM_BENEFITS_Historical_Health_Care_ACA,01_raw SQL\05_BEN\,03_Output Staging\05_BEN\
+HCM_BENEFITS_Health_Savings_Elections,01_raw SQL\05_BEN\,03_Output Staging\05_BEN\
+HCM_BENEFITS_Spending_Account_Elections,01_raw SQL\05_BEN\,03_Output Staging\05_BEN\
+HCM_BENEFITS_Insurance_Elections,01_raw SQL\05_BEN\,03_Output Staging\05_BEN\
+HCM_BENEFITS_Retirement_Savings_Election,01_raw SQL\05_BEN\,03_Output Staging\05_BEN\
+HCM_BENEFITS_Additional_Benefits_Election,01_raw SQL\05_BEN\,03_Output Staging\05_BEN\
+#FIN Customer Jobs
+fin_rev_Customer_Address_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+fin_rev_Customer_Phone_Number_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+fin_Customer_Email_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+fin_rev_Customer_Company_Restrictions_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+fin_rev_Customer_General_Data_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+fin_rev_Customer_Customer_Open_Invoices-Detailed_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+fin_rev_Customer_Alternate_Names_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+#Procurement
+fin_Procurement_Purchase_Orders-Goods_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+fin_Procurement_Receipts-Goods_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+#FIN business assets
+FIN_Business_Asset_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+FIN_Business_Asset_Beginning_Balances_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+FIN_Business_Asset_Accounting_Journals_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+#FIN Supplier Jobs
+FIN_Supplier_General_Data,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+fin_Supplier_Address,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+# duplicate-Fin_Spend_Supplier_Connections,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+Fin_Supplier_Connections,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+fin_spend_Supplier_Email,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+FIN_SPEND_Supplier_Phone_Number,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+#FIN_SPEND_Supplier_Settlement_Bank_Data,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+#FIN_Spend_Supplier_Open_Invoices_Detailed,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+#Fin_Spend_Supplier_1099_Amounts,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+Fin_Spend_Supplier_Entity_Contact_Name,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+Fin_Spend_Supplier_Entity_Contact_Email,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+Fin_Spend_Supplier_Entity_Contact_Phone,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+Fin_Spend_Supplier_1099_Amounts_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+FIN_Spend_Supplier_Settlement_Bank_Data_koaSteven,01_raw SQL\02_FIN\,03_Output Staging\02_FIN\
+#Pay Jobs
+Pay - USA-EE Payroll History,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+Pay_Payroll_FICA Medicare Exempt,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+Pay_Payroll_FICA OASDI Exempt,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+Pay_PayRoll_Local Home City Tax Elections,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+Pay_PayRoll_Local Work City Tax Elections,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+Pay_PayRoll_State Tax Elections,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+pay_Payroll_W-4 Elections,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayCommon_Pay Election Enrollment,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayCommon_Pay Group Assignments,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayCommon_Paycheck Delivery Options,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayCommon_Payee Input Data,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayRoll_Bankruptcy,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayRoll_Creditor,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayRoll_Deduction Recipients,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayRoll_Federal Tax Levy,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayRoll_Student Loan,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayRoll_Support Orders,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+PayRoll_Wage Assignment,01_raw SQL\03_PAY\,03_Output Staging\03_PAY\
+#smoke test results
+smoketest_out,01_raw SQL\04_Tables\,03_Output Staging\
+

@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="OneSolution-Pay">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="wisc11\dv:HQ\jmcbra">
+          <Created>2022-08-03T15:47:37.8158151-04:00</Created>
+          <Type>SQL</Type>
+          <Server>wisc11\dv</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="missing Fin codes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>missing Fin codes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pay - USA-EE Payroll History.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Pay - USA-EE Payroll History.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pay_Payroll_FICA Medicare Exempt.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Pay_Payroll_FICA Medicare Exempt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pay_Payroll_FICA OASDI Exempt.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Pay_Payroll_FICA OASDI Exempt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pay_PayRoll_Local Home City Tax Elections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Pay_PayRoll_Local Home City Tax Elections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pay_PayRoll_Local Work City Tax Elections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Pay_PayRoll_Local Work City Tax Elections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pay_PayRoll_State Tax Elections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Pay_PayRoll_State Tax Elections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pay_Payroll_W-4 Elections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pay_Payroll_W-4 Elections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayCommon_Pay Election Enrollment.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayCommon_Pay Election Enrollment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayCommon_Pay Group Assignments.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayCommon_Pay Group Assignments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayCommon_Paycheck Delivery Options.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayCommon_Paycheck Delivery Options.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayCommon_Payee Input Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayCommon_Payee Input Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayRoll_Bankruptcy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayRoll_Bankruptcy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayRoll_Creditor.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayRoll_Creditor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayRoll_Deduction Recipients.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayRoll_Deduction Recipients.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayRoll_Federal Tax Levy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayRoll_Federal Tax Levy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayRoll_Student Loan.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayRoll_Student Loan.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayRoll_Support Orders.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayRoll_Support Orders.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PayRoll_Wage Assignment.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PayRoll_Wage Assignment.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

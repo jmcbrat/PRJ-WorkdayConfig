@@ -1,0 +1,13 @@
+,iif(hr_empmstr.ENTITY_ID ='ROOT',
+       'County of Macomb',
+		 'Macomb County Employees Retirement System') as 'Company'
+
+updated to:
+
+,iif(hr_empmstr.ENTITY_ID ='ROOT',
+       'C0001' /*County of Macomb*/,
+		 'C0005' /*'Macomb County Employees Retirement System'*/) as 'Company'
+
+
+,ROW_NUMBER() OVER (PARTITION BY pe_name_mstr.pe_id ORDER BY pe_name_mstr.pe_id) as 'SortOrder'
+,IIF(ROW_NUMBER() OVER (PARTITION BY pe_name_mstr.pe_id ORDER BY pe_name_mstr.pe_id)=1,'Y','N') as 'Primary'

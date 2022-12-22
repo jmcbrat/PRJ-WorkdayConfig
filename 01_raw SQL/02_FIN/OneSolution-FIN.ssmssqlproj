@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="OneSolution-FIN">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="wisc11\dv:HQ\jmcbra">
+          <Created>2022-05-29T19:25:13.6236129-04:00</Created>
+          <Type>SQL</Type>
+          <Server>wisc11\dv</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="fin_cust_email_view create.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_cust_email_view create.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_Customer_Email.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_Customer_Email.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_rev_Customer_Address.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fin_rev_Customer_Address.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_rev_Customer_General_Data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fin_rev_Customer_General_Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_rev_Customer_Phone_Number.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wisc11\dv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wisc11\dv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fin_rev_Customer_Phone_Number.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_spend_Supplier_Email.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_spend_Supplier_Email.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIN_SPEND_Supplier_Phone_Number.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIN_SPEND_Supplier_Phone_Number.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIN_SPEND_Supplier_Settlement_Bank_Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIN_SPEND_Supplier_Settlement_Bank_Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_Supplier_Address.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_Supplier_Address.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIN_Supplier_General_Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIN_Supplier_General_Data.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

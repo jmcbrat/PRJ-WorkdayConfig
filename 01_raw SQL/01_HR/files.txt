@@ -1,0 +1,34 @@
+dont publish Email Match for e nnumber.sql
+dont publish HR_EMP_ServiceDates.sql
+dont publish HR_Pay_Group_Assignments.sql
+dont publish retiree-zin link.sql
+dont publish sample dates.sql
+dont publish sccm users.sql
+dont publish Sup_org cleanup after import.sql
+EMP-Biographic Data.sql
+HR_Absence_Leave_of_Absence.sql
+HR_EMP-Allowance Plans.sql
+HR_EMP-Calculated Plans.sql
+HR_EMP-JobMgt.sql
+HR_EMP-JobMgt_skossow.sql
+HR_EMP-One-TimePayments.sql
+HR_EMP_AddRetireeStatus.sql
+HR_EMP_Base_Compensation.sql
+hr_EMP_Demographic Data.sql
+HR_EMP_Position_Mgt.sql
+HR_EMP_System_User_Accounts.sql
+HR_EMP_Terminations.sql
+hr_emp_UnionMembership.sql
+HR_EMP_VET_ID.sql
+hr_EMP_Worker Government IDs.sql
+hr_emp_WorkerLicenses.sql
+HR_Name_and_Email.sql
+HR_Name_and_Email_sdk.sql
+HR_Organization_Assignments.sql
+HR_Override Balances.sql
+HR_SECURITY_Assign_Role_Based_Security.sql
+HR_SECURITY_Assign_User_Based_Security.sql
+HR_Service_Dates.sql
+HR_Supervisory_Organizations.sql
+HR_Worker_Address.sql
+HR_Worker_Phone_Numbers.sql

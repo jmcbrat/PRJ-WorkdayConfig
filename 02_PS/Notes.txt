@@ -1,0 +1,4 @@
+No need to create PS scripts.  
+  Only update the settings.txt file
+
+You will need to create the SQL files in SSMS

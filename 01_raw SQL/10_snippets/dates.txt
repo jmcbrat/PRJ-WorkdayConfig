@@ -1,0 +1,3 @@
+Convert(datetime, '01-Jan-2022' ),replace(convert(varchar, hr_empmstr.hdt, 106)
+
+replace(convert(varchar, pyd_cdh_dtl.pyd_beg, 106),' ','-')
