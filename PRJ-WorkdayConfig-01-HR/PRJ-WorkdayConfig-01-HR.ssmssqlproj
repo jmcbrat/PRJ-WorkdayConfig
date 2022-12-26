@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PRJ-WorkdayConfig-01-HR">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="dont publish Email Match for e nnumber.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dont publish Email Match for e nnumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dont publish HR_EMP_ServiceDates.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dont publish HR_EMP_ServiceDates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dont publish HR_Pay_Group_Assignments.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dont publish HR_Pay_Group_Assignments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dont publish retiree-zin link.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dont publish retiree-zin link.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dont publish sample dates.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dont publish sample dates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dont publish sccm users.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dont publish sccm users.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dont publish Sup_org cleanup after import.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dont publish Sup_org cleanup after import.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMP-Biographic Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>EMP-Biographic Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Absence_Leave_of_Absence.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_Absence_Leave_of_Absence.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP_AddRetireeStatus.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP_AddRetireeStatus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP_Base_Compensation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP_Base_Compensation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="hr_EMP_Demographic Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>hr_EMP_Demographic Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP_Position_Mgt.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP_Position_Mgt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP_System_User_Accounts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP_System_User_Accounts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP_Terminations.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP_Terminations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="hr_emp_UnionMembership.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>hr_emp_UnionMembership.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP_VET_ID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP_VET_ID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="hr_EMP_Worker Government IDs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>hr_EMP_Worker Government IDs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="hr_emp_WorkerLicenses.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>hr_emp_WorkerLicenses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP-Allowance Plans.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP-Allowance Plans.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP-Calculated Plans.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP-Calculated Plans.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP-JobMgt.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP-JobMgt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP-JobMgt_skossow.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP-JobMgt_skossow.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_EMP-One-TimePayments.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_EMP-One-TimePayments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Name_and_Email.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_Name_and_Email.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Name_and_Email_sdk.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_Name_and_Email_sdk.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Organization_Assignments.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_Organization_Assignments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Override Balances.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_Override Balances.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_SECURITY_Assign_Role_Based_Security.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_SECURITY_Assign_Role_Based_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_SECURITY_Assign_User_Based_Security.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_SECURITY_Assign_User_Based_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Service_Dates.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_Service_Dates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Supervisory_Organizations.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_Supervisory_Organizations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Worker_Address.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_Worker_Address.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Worker_Phone_Numbers.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_Worker_Phone_Numbers.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

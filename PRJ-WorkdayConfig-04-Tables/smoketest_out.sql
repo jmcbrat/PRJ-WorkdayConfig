@@ -1,0 +1,1 @@
+SELECT * from [IT.Macomb_DBA].dbo.smoketest

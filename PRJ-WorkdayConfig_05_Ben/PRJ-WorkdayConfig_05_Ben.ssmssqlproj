@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PRJ-WorkdayConfig_05_Ben">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="HCM_BENEFITS_Additional_Benefits_Election.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HCM_BENEFITS_Additional_Benefits_Election.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HCM_BENEFITS_Health_Care_Elections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HCM_BENEFITS_Health_Care_Elections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HCM_BENEFITS_Health_Savings_Elections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HCM_BENEFITS_Health_Savings_Elections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HCM_BENEFITS_Historical_Health_Care_ACA.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HCM_BENEFITS_Historical_Health_Care_ACA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HCM_BENEFITS_Insurance_Elections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HCM_BENEFITS_Insurance_Elections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HCM_BENEFITS_Retirement_Savings_Election.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HCM_BENEFITS_Retirement_Savings_Election.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HCM_BENEFITS_Spending_Account_Elections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HCM_BENEFITS_Spending_Account_Elections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HR_Benefits_Employee_Related_Person.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HR_Benefits_Employee_Related_Person.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

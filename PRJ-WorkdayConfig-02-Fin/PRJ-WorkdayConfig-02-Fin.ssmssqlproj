@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PRJ-WorkdayConfig-02-Fin">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="FIN_Business_Asset.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIN_Business_Asset.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIN_Business_Asset_Accounting_Journals.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIN_Business_Asset_Accounting_Journals.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIN_Business_Asset_Beginning_Balances.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIN_Business_Asset_Beginning_Balances.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_Customer_Email.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_Customer_Email.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_Procurement_Purchase_Orders-Goods.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_Procurement_Purchase_Orders-Goods.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_Procurement_Receipts-Goods.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_Procurement_Receipts-Goods.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_rev_Customer_Address.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_rev_Customer_Address.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_rev_Customer_Alternate_Names.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_rev_Customer_Alternate_Names.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_rev_Customer_Company_Restrictions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_rev_Customer_Company_Restrictions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_rev_Customer_Customer_Open_Invoices-Detailed.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_rev_Customer_Customer_Open_Invoices-Detailed.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_rev_Customer_General_Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_rev_Customer_General_Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_rev_Customer_Phone_Number.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_rev_Customer_Phone_Number.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fin_Spend_Supplier_1099_Amounts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Fin_Spend_Supplier_1099_Amounts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fin_Spend_Supplier_Email.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Fin_Spend_Supplier_Email.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fin_Spend_Supplier_Entity_Contact_Email.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Fin_Spend_Supplier_Entity_Contact_Email.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fin_Spend_Supplier_Entity_Contact_Name.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Fin_Spend_Supplier_Entity_Contact_Name.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fin_Spend_Supplier_Entity_Contact_Phone.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Fin_Spend_Supplier_Entity_Contact_Phone.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIN_Spend_Supplier_Open_Invoices_Detailed.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIN_Spend_Supplier_Open_Invoices_Detailed.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIN_Spend_Supplier_Phone_Number.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIN_Spend_Supplier_Phone_Number.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIN_Spend_Supplier_Settlement_Bank_Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIN_Spend_Supplier_Settlement_Bank_Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fin_Supplier_Address.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fin_Supplier_Address.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fin_Supplier_Connections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Fin_Supplier_Connections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIN_Supplier_General_Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIN_Supplier_General_Data.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
